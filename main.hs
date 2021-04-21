@@ -62,7 +62,6 @@ and then go to map, do map's order
 -}
 
 --I am Jason--
---Do you miss me? by Bernie
     
 main =do    
     pretest"segments []" $segments []
@@ -75,3 +74,9 @@ main =do
     pretest" isort2 comparePair [(5, 4), (3, 2), (1, 5), (2, 6)]" $ isort2 comparePair [(5, 4), (3, 2), (1, 5), (2, 6)]
     where
     pretest p a = putStrLn $ p ++ " = " ++ show a
+
+
+
+
+
+-- yo battle -- 
